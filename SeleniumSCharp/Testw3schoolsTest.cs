@@ -42,7 +42,7 @@ public class Testw3schoolsTest {
     }
     driver.FindElement(By.LinkText("Log in")).Click();
     driver.FindElement(By.Id("id_password")).Click();
-    driver.FindElement(By.Id("id_password")).SendKeys("nikitig1987@abv.bg");
+    driver.FindElement(By.Id("id_password")).SendKeys("nicdcdcdbg");
     driver.FindElement(By.Id("submit-id-submit")).Click();
     {
       var element = driver.FindElement(By.Id("id_password"));
@@ -65,7 +65,7 @@ public class Testw3schoolsTest {
       Actions builder = new Actions(driver);
       builder.MoveToElement(element, 0, 0).Perform();
     }
-    driver.FindElement(By.Id("id_password")).SendKeys("Pomorie@1234");
+    driver.FindElement(By.Id("id_password")).SendKeys("Pcdcdcdccd4");
     driver.FindElement(By.Id("submit-id-submit")).Click();
     {
       var element = driver.FindElement(By.LinkText("Health & Fitness"));

@@ -31,9 +31,9 @@ public class TestInstagramTest {
     driver.Navigate().GoToUrl("https://www.instagram.com/");
     driver.Manage().Window.Size = new System.Drawing.Size(1280, 680);
     driver.FindElement(By.Name("username")).Click();
-    driver.FindElement(By.Name("username")).SendKeys("stoyanov.nikolay1");
+    driver.FindElement(By.Name("username")).SendKeys("stcdcdcdcdy1");
     driver.FindElement(By.Name("password")).Click();
-    driver.FindElement(By.Name("password")).SendKeys("Stoyanov@1234");
+    driver.FindElement(By.Name("password")).SendKeys("Scdcddcd4");
     driver.FindElement(By.CssSelector(".\\_acan > .\\_ab8w")).Click();
     driver.FindElement(By.CssSelector(".\\_acao")).Click();
     driver.FindElement(By.CssSelector(".\\_ab8w > .\\_aarf .xh8yej3")).Click();

@@ -34,9 +34,9 @@ public class TestJira4Test {
   public void testJira4() {
     driver.Navigate().GoToUrl("http://jira.softacad.bg/secure/Dashboard.jspa");
     driver.Manage().Window.Size = new System.Drawing.Size(1296, 696);
-    driver.FindElement(By.Id("login-form-username")).SendKeys("nikolay.stoyanov");
+    driver.FindElement(By.Id("login-form-username")).SendKeys("ncdcdcdnov");
     driver.FindElement(By.Id("login-form-password")).Click();
-    driver.FindElement(By.Id("login-form-password")).SendKeys("Burgas@123456");
+    driver.FindElement(By.Id("login-form-password")).SendKeys("Bdcdcddc6");
     driver.FindElement(By.Id("login")).Click();
 
   }

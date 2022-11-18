@@ -32,7 +32,7 @@ public class TestfacebookTest {
     driver.Manage().Window.Size = new System.Drawing.Size(1280, 680);
     driver.FindElement(By.Id("pass")).Click();
     driver.FindElement(By.Id("pass")).SendKeys(Keys.Enter);
-    driver.FindElement(By.Id("pass")).SendKeys("Stoyanov@1234");
+    driver.FindElement(By.Id("pass")).SendKeys("dwdwdw@fefwefw");
     {
       var element = driver.FindElement(By.CssSelector(".x6s0dn4:nth-child(2) > .x4k7w5x .x1i10hfl:nth-child(1)"));
       Actions builder = new Actions(driver);
@@ -60,7 +60,7 @@ public class TestfacebookTest {
       builder.MoveToElement(element).Perform();
     }
     driver.FindElement(By.CssSelector("div:nth-child(5) > .x1i10hfl .x193iq5w")).Click();
-    driver.FindElement(By.Id("email")).SendKeys("nikitig1987@abv.bg");
-    driver.FindElement(By.Id("pass")).SendKeys("Stoyanov@1234");
+    driver.FindElement(By.Id("email")).SendKeys("fefefefe@abv.bg");
+    driver.FindElement(By.Id("pass")).SendKeys(" ccdscsd@cdscs");
   }
 }
